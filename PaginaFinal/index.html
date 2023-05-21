@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="inicio">
+    <img src="Meenu.svg" alt="" class="menu">
+    <nav class="menu-navegacion ">
+        <a href="#inicio">Inicio</a>
+        <a href="#Quienes">Quienes somos</a>
+        <a href="#portafolio">Galeria</a>
+        <a href="#actividades">Actividades</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="contenedor head">
+        <h1 class="titulo">Centro Cultural del Bosque</h1>
+        <p class="copy">Lorem, ipsum dolor sit amet consectetur </p>
+    </div>
+    </header>
+    <main>
+        <section class="somos contenedor" id="Quienes">
+            <h2 class="subtitulo">Bienvenido al teatro Orientacion</h2>
+            <div class="contenedor-servicio">
+                <img src="centro2.jpg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Obras de teatro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis sapiente excepturi quos doloremque amet illum deleniti adipisci delectus dolor!</p>
+                    </div>
+                    
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Conciertos</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis sapiente excepturi quos doloremque amet illum deleniti adipisci delectus dolor!</p>
+                    </div>
+                    
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Cine</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis sapiente excepturi quos doloremque amet illum deleniti adipisci delectus dolor!</p>
+                    </div>
+                    
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">4</span>Conferencias</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat veritatis sapiente excepturi quos doloremque amet illum deleniti adipisci delectus dolor!</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="galeria" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="1.jpg" alt="" class="img-galeria">
+                    <img src="2.jpg" alt="" class="img-galeria">
+                    <img src="3.jpg" alt="" class="img-galeria">
+                    <img src="4.jpg" alt="" class="img-galeria">
+                    <img src="5.jpg" alt="" class="img-galeria">
+                    <img src="6.jpg" alt="" class="img-galeria">
+                    <img src="7.jpg" alt="" class="img-galeria">
+                    <img src="8.jpg" alt="" class="img-galeria">
+                    <img src="9.jpg" alt="" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <section class="imagen-ligth show">
+            <img src="cerrar.svg" alt="" class="cerrar">
+            <img src="" alt="" class="agregar-imagen showImage">
+        </section>
+        <section class="contenedor" id="actividades">
+            <h2 class="subtitulo">Actividades Culturales</h2>
+            <section class="actividades">
+                <div class="cont-actividades">
+                    <img src="4.jpg" alt="">
+                    <h3 class="n.actividades">Obras de Teatro</h3>
+                </div>
+                <div class="cont-actividades">
+                    <img src="6.jpg" alt="">
+                    <h3 class="n.actividades">Conciertos</h3>
+                </div>
+                <div class="cont-actividades">
+                    <img src="cinef.jpg" alt="">
+                    <h3 class="n.actividades">Cine</h3>
+                </div>
+                <div class="cont-actividades">
+                    <img src="5.jpg" alt="">
+                    <h3 class="n.actividades">Charlas y Conferencias</h3>
+                </div>
+
+            </section>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div class="contener footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Contacto</h2>
+                <P>Dirección: Av. P. de la Reforma s/n, Polanco V Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX <br>
+                Teléfono: 525510005600 <br>
+                Correo electrónico: info@ccbbellasartes.com</P>
+                <br>    
+            </div>  
+            <div class="social-media">
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="./" class="social-media-icon">
+                    <i class='bx bxl-instagram-alt'></i>
+                </a>
+            </div>
+            <div>
+                <form id="myForm">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    
+                    <input type="submit" value="Enviar">
+                  </form>
+                
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="menu.js"></script>
+    <script src="ligthbox.js"></script>
+</body>
+</html>
